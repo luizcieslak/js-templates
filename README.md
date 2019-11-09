@@ -1,6 +1,6 @@
 # js-templates
 
-[![License][license-badge]][license-url]
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Up-to-date Javascript templates so you can quickly bootstrap an application 🚀
 
