@@ -1,0 +1,11 @@
+{
+  "name": "js-templates",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^3.18.1"
+  },
+  "scripts": {}
+}
