@@ -3,7 +3,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 
-
 Up-to-date Javascript templates so you can quickly bootstrap an application 🚀
 
 ## Main frameworks
@@ -23,6 +22,7 @@ Up-to-date Javascript templates so you can quickly bootstrap an application 🚀
 
 - @graphql-codegen
 - @testing-library/react
+- gatsby-plugin-webpack-bundle-analyzer
 
 ## Contributing
 
