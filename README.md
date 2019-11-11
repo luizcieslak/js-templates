@@ -23,6 +23,7 @@ Up-to-date Javascript templates so you can quickly bootstrap an application 🚀
 - @graphql-codegen
 - @testing-library/react
 - gatsby-plugin-webpack-bundle-analyzer
+- gatsby-plugin-preact
 
 ## Contributing
 
