@@ -4,7 +4,6 @@ import React from 'react'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import GatsbyImage from 'gatsby-image'
-import { Box } from 'rebass'
 import { GatsbyAstronautQuery } from '../generated/graphql'
 
 interface IProps {
@@ -16,11 +15,15 @@ const IndexPage: React.FC<IProps> = ({ data }) => {
 	return (
 		<Layout>
 			<SEO title='Home' keywords={[`gatsby`, `application`, `react`]} />
-			<Box width='30%'>
+			<div class='w-1/3'>
 				{/* TODO: add optional chaining in file */}
 				<GatsbyImage fluid={data.file.childImageSharp.fluid} />
-			</Box>
-			<Link to='/page-2'>go to page 2</Link>
+			</div>
+			<Link to='/page-2'>
+				<button class='bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded mt-5'>
+					go to page 2
+				</button>
+			</Link>
 		</Layout>
 	)
 }

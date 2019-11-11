@@ -1,8 +1,5 @@
 import { graphql, useStaticQuery } from 'gatsby'
 import React from 'react'
-import { ThemeProvider } from 'emotion-theming'
-
-import { Box } from 'rebass'
 import Header from './header'
 import { SiteQuery } from '../generated/graphql'
 
@@ -22,12 +19,9 @@ const Layout: React.FunctionComponent = ({ children }) => {
 	return (
 		<>
 			<Header siteTitle={data.site.siteMetadata.title} />
-			<Box p='5'>
-				{/* <h1>{data && data.}</h1> */}
-				<div>
-					<main>{children}</main>
-				</div>
-			</Box>
+			<div className='container p-5'>
+				<main>{children}</main>
+			</div>
 		</>
 	)
 }
