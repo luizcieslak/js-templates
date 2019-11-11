@@ -9,6 +9,8 @@ module.exports = {
 		`gatsby-plugin-emotion`,
 		`gatsby-plugin-react-helmet`,
 		`gatsby-plugin-webpack-bundle-analyzer`,
+		// see: https://henrique.codes/speed-up-gatsby-site/
+		`gatsby-plugin-preact`,
 		{
 			resolve: `gatsby-source-filesystem`,
 			options: {
