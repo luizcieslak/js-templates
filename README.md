@@ -24,6 +24,7 @@ Up-to-date Javascript templates so you can quickly bootstrap an application 🚀
 - @testing-library/react
 - gatsby-plugin-webpack-bundle-analyzer
 - gatsby-plugin-preact
+- gatsby-plugin-netlify
 
 ## Contributing
 
