@@ -8,6 +8,8 @@ module.exports = {
 		`gatsby-plugin-typescript`,
 		`gatsby-plugin-emotion`,
 		`gatsby-plugin-react-helmet`,
+		// see: https://henrique.codes/speed-up-gatsby-site/
+		`gatsby-plugin-preact`,
 		{
 			resolve: `gatsby-source-filesystem`,
 			options: {
