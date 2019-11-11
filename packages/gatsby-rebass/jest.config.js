@@ -14,5 +14,16 @@ module.exports = {
 	globals: {
 		__PATH_PREFIX__: ``
 	},
-	setupFiles: [`<rootDir>/loadershim.js`]
+	setupFiles: [`<rootDir>/loadershim.js`],
+	projects: [
+		{
+			displayName: 'test'
+		},
+		{
+			runner: 'jest-runner-eslint',
+			displayName: 'lint',
+			testMatch: ['<rootDir>/src/*.js', '<rootDir>/src/**/*.tsx']
+		}
+	],
+	watchPlugins: ['jest-runner-eslint/watch-fix']
 }

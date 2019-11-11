@@ -20,6 +20,7 @@
     "gatsby-plugin-typescript": "^2.1.15",
     "gatsby-source-filesystem": "^2.1.35",
     "gatsby-transformer-sharp": "^2.3.2",
+    "jest-runner-eslint": "^0.7.5",
     "prop-types": "^15.7.2",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
@@ -36,6 +37,8 @@
     "dev": "gatsby develop",
     "serve": "gatsby serve",
     "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
     "format": "prettier --write src/**/*.{ts,tsx,js,jsx}",
     "gql-gen": "gql-gen --config codegen.yml",
     "clean": "gatsby clean"
