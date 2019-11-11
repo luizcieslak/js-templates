@@ -8,6 +8,7 @@ module.exports = {
 		`gatsby-plugin-typescript`,
 		`gatsby-plugin-emotion`,
 		`gatsby-plugin-react-helmet`,
+		`gatsby-plugin-webpack-bundle-analyzer`,
 		// see: https://henrique.codes/speed-up-gatsby-site/
 		`gatsby-plugin-preact`,
 		{
