@@ -1,0 +1,85 @@
+{
+  "config": {
+    "title": "Gatsby Docz",
+    "description": "gatsby-docz starter",
+    "menu": [],
+    "version": "0.0.0",
+    "repository": "https://github.com/gatsbyjs/gatsby-starter-default",
+    "native": false,
+    "themeConfig": {},
+    "separator": "-"
+  },
+  "entries": [
+    {
+      "key": "README.md",
+      "value": {
+        "id": "04c6e90faac2675aa89e2176d2eec7d8",
+        "filepath": "README.md",
+        "fullpath": "/Users/luiz/pessoal/js-templates/packages/gatsby-docz/README.md",
+        "link": "https://github.com/gatsbyjs/gatsby-starter-default/edit/master/packages/gatsby-docz/README.md",
+        "slug": "readme",
+        "route": "/readme",
+        "name": "Readme",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "gatsby-typescript-docz-jest-starter",
+            "depth": 1,
+            "value": "Gatsby TypeScript docz Jest Starter"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/hello-world.mdx",
+      "value": {
+        "name": "Hello world",
+        "route": "/hello-world",
+        "id": "5314772f79aa9a5beafbc4e78b20e494",
+        "filepath": "src/hello-world.mdx",
+        "fullpath": "/Users/luiz/pessoal/js-templates/packages/gatsby-docz/src/hello-world.mdx",
+        "link": "https://github.com/gatsbyjs/gatsby-starter-default/edit/master/packages/gatsby-docz/src/hello-world.mdx",
+        "slug": "src-hello-world",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "hello-world",
+            "depth": 1,
+            "value": "Hello world"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/wow.mdx",
+      "value": {
+        "name": "Wow",
+        "route": "/wow",
+        "id": "541301261daed9dda5ca510a1befa4d3",
+        "filepath": "src/wow.mdx",
+        "fullpath": "/Users/luiz/pessoal/js-templates/packages/gatsby-docz/src/wow.mdx",
+        "link": "https://github.com/gatsbyjs/gatsby-starter-default/edit/master/packages/gatsby-docz/src/wow.mdx",
+        "slug": "src-wow",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "wow",
+            "depth": 1,
+            "value": "wow"
+          },
+          {
+            "slug": "wow-1",
+            "depth": 2,
+            "value": "wow"
+          },
+          {
+            "slug": "wow-2",
+            "depth": 3,
+            "value": "wow"
+          }
+        ]
+      }
+    }
+  ],
+  "props": []
+}
