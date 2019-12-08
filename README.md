@@ -8,8 +8,8 @@ Up-to-date Javascript templates so you can quickly bootstrap an application 🚀
 ## Main frameworks
 
 - Gatsby
+- Node
 - React using CRA (under construction 👷)
-- Node (under construction 👷)
 
 ### Used in every template
 
