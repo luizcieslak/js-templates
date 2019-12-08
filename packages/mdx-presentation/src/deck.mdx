@@ -2,6 +2,7 @@ import { Head, Appear } from 'mdx-deck'
 import { GFLogo, Center, Row, Container, Img } from './components'
 
 import { CodeSurfer } from 'mdx-deck-code-surfer'
+import { LiveCode } from 'mdx-deck-live-code'
 
 export { default as theme } from './theme'
 
@@ -27,6 +28,10 @@ export { default as theme } from './theme'
 - yes
 - ok
 - sim
+
+---
+
+<LiveCode title='Old times' size='large' code={require('!raw-loader!./class-component.js')} />
 
 ---
 
