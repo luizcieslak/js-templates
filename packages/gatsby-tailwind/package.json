@@ -2,7 +2,7 @@
   "name": "gatsby-tailwind",
   "private": true,
   "description": "gatsby-tailwind starter",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": "Luiz Cieslak <luiz@cieslak.dev>",
   "dependencies": {
     "babel-plugin-transform-remove-console": "^6.9.4",

@@ -2,7 +2,7 @@
   "name": "gatsby-rebass",
   "private": true,
   "description": "gatsby-rebass starter",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "author": "Luiz Cieslak <luiz@cieslak.dev>",
   "dependencies": {
     "@emotion/core": "^10.0.22",
