@@ -4,7 +4,7 @@
     "description": "gatsby-docz starter",
     "menu": [],
     "version": "0.0.0",
-    "repository": "https://github.com/gatsbyjs/gatsby-starter-default",
+    "repository": "https://github.com/luizcieslak/js-templates",
     "native": false,
     "themeConfig": {},
     "separator": "-"
@@ -16,7 +16,7 @@
         "id": "04c6e90faac2675aa89e2176d2eec7d8",
         "filepath": "README.md",
         "fullpath": "/Users/luiz/pessoal/js-templates/packages/gatsby-docz/README.md",
-        "link": "https://github.com/gatsbyjs/gatsby-starter-default/edit/master/packages/gatsby-docz/README.md",
+        "link": "https://github.com/luizcieslak/js-templates/edit/master/packages/gatsby-docz/README.md",
         "slug": "readme",
         "route": "/readme",
         "name": "Readme",
@@ -38,7 +38,7 @@
         "id": "5314772f79aa9a5beafbc4e78b20e494",
         "filepath": "src/hello-world.mdx",
         "fullpath": "/Users/luiz/pessoal/js-templates/packages/gatsby-docz/src/hello-world.mdx",
-        "link": "https://github.com/gatsbyjs/gatsby-starter-default/edit/master/packages/gatsby-docz/src/hello-world.mdx",
+        "link": "https://github.com/luizcieslak/js-templates/edit/master/packages/gatsby-docz/src/hello-world.mdx",
         "slug": "src-hello-world",
         "menu": "",
         "headings": [
@@ -58,7 +58,7 @@
         "id": "541301261daed9dda5ca510a1befa4d3",
         "filepath": "src/wow.mdx",
         "fullpath": "/Users/luiz/pessoal/js-templates/packages/gatsby-docz/src/wow.mdx",
-        "link": "https://github.com/gatsbyjs/gatsby-starter-default/edit/master/packages/gatsby-docz/src/wow.mdx",
+        "link": "https://github.com/luizcieslak/js-templates/edit/master/packages/gatsby-docz/src/wow.mdx",
         "slug": "src-wow",
         "menu": "",
         "headings": [
