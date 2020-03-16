@@ -1,5 +1,5 @@
 import { Link, useStaticQuery, graphql } from 'gatsby'
-import React from 'react'
+import React, { useState, useCallback } from 'react'
 import GatsbyImage from 'gatsby-image'
 import { GatsbyIconQuery } from '../generated/graphql'
 
@@ -33,8 +33,14 @@ interface IProps {
 const Header: React.FunctionComponent<IProps> = props => {
 	const data: GatsbyIconQuery = useStaticQuery(iconQuery)
 	console.log('data icon header', data)
+
+	const [menuStatus, setMenuStatus] = useState('CLOSED')
+	const toggleMenu = useCallback(() => {
+		menuStatus === 'CLOSED' ? setMenuStatus('OPEN') : setMenuStatus('CLOSED')
+	}, [menuStatus])
+
 	return (
-		<>
+		<div className={`relative bg-primary ${menuStatus === 'OPEN' ? 'pb-8' : isIndex ? 'header pb-16' : 'pb-0'}`}>
 			<nav class='flex items-center justify-between flex-wrap bg-blue-500 p-6'>
 				<div class='flex items-center flex-shrink-0 text-white mr-6'>
 					<div class='h-8 w-8 mr-4'>
@@ -50,7 +56,10 @@ const Header: React.FunctionComponent<IProps> = props => {
 						</svg>
 					</button>
 				</div>
-				<div class='w-full block flex-grow lg:flex lg:items-center lg:w-auto'>
+				<div class={`w-full 
+					${menuStatus === 'OPEN' ? 'block' : 'hidden'} 
+					block flex-grow lg:flex lg:items-center lg:w-auto`}
+				>
 					<div class='text-sm lg:flex-grow'>
 						<Link to='/' className='block mt-4 lg:inline-block lg:mt-0 text-blue-200 hover:text-white mr-4'>
 							Home
@@ -69,7 +78,7 @@ const Header: React.FunctionComponent<IProps> = props => {
 					</div>
 				</div>
 			</nav>
-		</>
+		</div>
 	)
 }
 
