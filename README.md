@@ -8,15 +8,15 @@ Up-to-date Javascript templates so you can quickly bootstrap an application 🚀
 ## Main frameworks
 
 - Gatsby
-- React using CRA (under construction 👷)
 - Node (under construction 👷)
 
 ### Used in every template
 
-- Typescript
+- TypeScript
 - Jest
 - ESLint
 - Prettier
+- Dotenv
 
 ### Used in every Gatsby Template
 
