@@ -5,6 +5,7 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 import GatsbyImage from 'gatsby-image'
 import { GatsbyAstronautQuery } from '../generated/graphql'
+import { FaBeer } from 'react-icons/fa'
 
 interface IProps {
 	data: GatsbyAstronautQuery
@@ -19,6 +20,7 @@ const IndexPage: React.FC<IProps> = ({ data }) => {
 				{/* TODO: add optional chaining in file */}
 				<GatsbyImage fluid={data.file.childImageSharp.fluid} />
 			</div>
+			<FaBeer />
 			<Link to='/page-2'>
 				<button className='bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded mt-5'>
 					go to page 2
