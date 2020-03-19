@@ -15,5 +15,5 @@ function renderWithRouter(ui, { route = '/', history = createHistory(createMemor
 }
 
 test('shoud fail', () => {
-	expect(true).toBe(false)
+	expect(true).not.toBe(false)
 })

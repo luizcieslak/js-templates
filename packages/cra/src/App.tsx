@@ -1,8 +1,8 @@
 import React from 'react'
 
 import { Router } from '@reach/router'
-import Example from './pages/Example'
-import NotFound from './pages/NotFound'
+import Example from './Example'
+import NotFound from './NotFound'
 
 const App = () => {
 	return (
