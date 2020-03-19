@@ -1,6 +1,7 @@
 import React from 'react'
 import { render, fireEvent } from '@testing-library/react'
 import { createHistory, createMemorySource, LocationProvider } from '@reach/router'
+import Example from './Example'
 
 // this is a handy function that I would utilize for any component
 // that relies on the router being in context
@@ -14,6 +15,8 @@ function renderWithRouter(ui, { route = '/', history = createHistory(createMemor
 	}
 }
 
-test('shoud fail', () => {
-	expect(true).not.toBe(false)
+test('should find string example in page', () => {
+	const { getByText } = render(<Example />)
+	const exampleP = getByText(/example/i)
+	expect(exampleP.textContent).toBe('example')
 })
