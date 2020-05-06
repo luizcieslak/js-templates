@@ -11361,12 +11361,12 @@ gatsby-graphiql-explorer@^0.3.0:
   dependencies:
     "@babel/runtime" "^7.8.7"
 
-gatsby-image@2.3.0:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/gatsby-image/-/gatsby-image-2.3.0.tgz#4533b9dc784f97332c11d78bddb07fcaacd41cbd"
-  integrity sha512-X/ZAGA9pejQNwO9JpffgWXwlXqnMUQhU5Sk65Q4krs4clwBvggyZIi4UWotWRUmXcy7xDDJTydva+O3Z65zQ4w==
+gatsby-image@2.4.2:
+  version "2.4.2"
+  resolved "https://registry.yarnpkg.com/gatsby-image/-/gatsby-image-2.4.2.tgz#dd1d2e9496d40896d55dcd77dd1cf4fc34a5968a"
+  integrity sha512-/rLKNCtZmBdiSYWycJ6bgmfqjUpxPjn+6hSlGpH53d2A3GIdaiaa4BNrFE7ucBlrIm5hyJTsDaoqatNiKKaWJQ==
   dependencies:
-    "@babel/runtime" "^7.8.7"
+    "@babel/runtime" "^7.9.6"
     object-fit-images "^3.2.4"
     prop-types "^15.7.2"
 
