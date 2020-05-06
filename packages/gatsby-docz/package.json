@@ -1,6 +1,6 @@
 {
   "name": "gatsby-docz",
-  "private": true,
+  "private": false,
   "description": "gatsby-docz starter",
   "version": "0.1.1",
   "author": "Luiz Cieslak <luiz@cieslak.dev>",
@@ -23,9 +23,10 @@
     "gatsby-source-filesystem": "^2.1.35",
     "gatsby-theme-docz": "^2.0.0-rc.73",
     "gatsby-transformer-sharp": "^2.3.2",
+    "jquery": "^3.5.1",
     "preact": "^10.0.5",
     "prop-types": "^15.7.2",
-    "react": "^16.11.0",
+    "react": "16.13.1",
     "react-dom": "^16.11.0",
     "react-helmet": "^5.2.1",
     "react-icons": "^3.9.0"

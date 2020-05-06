@@ -1,6 +1,6 @@
 {
   "name": "cra-ts",
-  "private": true,
+  "private": false,
   "description": "cra with TS",
   "version": "0.0.1",
   "author": "Luiz Cieslak <luiz@cieslak.dev>",
@@ -13,7 +13,8 @@
     "clsx": "^1.1.0",
     "dotenv": "^8.2.0",
     "easy-peasy": "^3.3.0",
-    "react": "^16.12.0",
+    "jquery": "^3.5.1",
+    "react": "16.13.1",
     "react-dom": "^16.12.0",
     "react-icons": "^3.9.0",
     "react-scripts": "3.4.1",

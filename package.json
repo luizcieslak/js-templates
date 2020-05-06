@@ -5,9 +5,11 @@
     "packages/*"
   ],
   "devDependencies": {
-    "lerna": "^3.18.1"
+    "lerna": "^3.18.1",
+    "lerna-update-wizard": "^0.17.8"
   },
   "scripts": {
-    "postinstall": "npx lerna bootstrap"
+    "postinstall": "npx lerna bootstrap",
+    "update": "lernaupdate"
   }
 }
