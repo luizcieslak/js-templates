@@ -41,9 +41,9 @@ const Header: React.FunctionComponent<IProps> = props => {
 
 	return (
 		<div className={`relative bg-primary ${menuStatus === 'OPEN' ? 'pb-8' : 'pb-0'}`}>
-			<nav class='flex items-center justify-between flex-wrap bg-blue-500 p-6'>
-				<div class='flex items-center flex-shrink-0 text-white mr-6'>
-					<div class='h-8 w-8 mr-4'>
+			<nav className='flex items-center justify-between flex-wrap bg-blue-500 p-6'>
+				<div className='flex items-center flex-shrink-0 text-white mr-6'>
+					<div className='h-8 w-8 mr-4'>
 						<GatsbyImage fluid={data.file.childImageSharp.fluid} />
 					</div>
 					<span className='font-semibold text-xl tracking-tight'>{props.siteTitle}</span>
@@ -60,11 +60,11 @@ const Header: React.FunctionComponent<IProps> = props => {
 					</button>
 				</div>
 				<div
-					class={`w-full 
+					className={`w-full 
 					${menuStatus === 'OPEN' ? 'block' : 'hidden'} 
 					block flex-grow lg:flex lg:items-center lg:w-auto`}
 				>
-					<div class='text-sm lg:flex-grow'>
+					<div className='text-sm lg:flex-grow'>
 						<Link to='/' className='block mt-4 lg:inline-block lg:mt-0 text-blue-200 hover:text-white mr-4'>
 							Home
 						</Link>
