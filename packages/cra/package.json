@@ -2,7 +2,7 @@
   "name": "cra-ts",
   "private": false,
   "description": "cra with TS",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Luiz Cieslak <luiz@cieslak.dev>",
   "dependencies": {
     "@material-ui/core": "^4.9.3",
