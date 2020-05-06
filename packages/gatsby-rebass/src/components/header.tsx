@@ -42,7 +42,7 @@ const Header: React.FunctionComponent<IProps> = props => {
 				</Box>
 				<h1 style={{ margin: 0 }}>
 					<Link to='/' style={{ color: `white`, textDecoration: `none` }}>
-						{props.siteTitle} ss
+						{props.siteTitle}
 					</Link>
 				</h1>
 			</Flex>
