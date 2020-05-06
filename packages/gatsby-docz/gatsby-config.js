@@ -11,7 +11,11 @@ module.exports = {
 		// uncomment this to see the webpack bundle analyzer
 		// `gatsby-plugin-webpack-bundle-analyzer`,
 		// see: https://henrique.codes/speed-up-gatsby-site/
-		`gatsby-plugin-preact`,
+		// commenting preact plugin here, does not work with react hot loading
+		// see: https://github.com/gatsbyjs/gatsby/issues/23339
+		// Alternatively, you can use a ternary operator to add another plugin in development, e.g.
+		// NODE_ENV === 'production' ? `gatsby-plugin-preact` : `gatsby-plugin-webpack-bundle-analyzer`,
+		// `gatsby-plugin-preact`,
 		`gatsby-theme-docz`,
 		{
 			resolve: `gatsby-source-filesystem`,
