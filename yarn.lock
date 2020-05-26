@@ -3169,6 +3169,24 @@
     lodash.debounce "^4.0.8"
     react-dev-utils "^9.1.0"
 
+"@prefresh/core@0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@prefresh/core/-/core-0.6.0.tgz#b7801ad3d16de9d21ed0824db6c85707f93cf93c"
+  integrity sha512-xhhBgQeMmyoSYEr8F27oypxRTWysIKPnc+Ed6U5OmEwPtLeKsccI3UCpSQyrcv5/HmPNPjAYHPqNC0uH57rIkw==
+
+"@prefresh/utils@0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@prefresh/utils/-/utils-0.1.0.tgz#9b69c9ecd6002e72e096e5e72f4bd4f88d15284c"
+  integrity sha512-xtUsQMJIHwBuiXu1E1iiXNVfn60N6zpVUo67ZvQVA6OMlslQzWtbdnTXRT+iplBBgfLmQvXR0bKsNz1+ZYSMgw==
+
+"@prefresh/webpack@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@prefresh/webpack/-/webpack-0.6.0.tgz#fec281c8b94e5455646686eb4c123a7b22004dd3"
+  integrity sha512-z9S1jknJZsc9xmMsX/3nNae8CxKavlOH0YydDjdld41WYB4A2UkC7+rl4P+XH7www9HpGcXzmqgDfFKGGJnNEg==
+  dependencies:
+    "@prefresh/core" "0.6.0"
+    "@prefresh/utils" "0.1.0"
+
 "@reach/router@^1.3.1", "@reach/router@^1.3.3":
   version "1.3.3"
   resolved "https://registry.yarnpkg.com/@reach/router/-/router-1.3.3.tgz#58162860dce6c9449d49be86b0561b5ef46d80db"
@@ -10391,10 +10409,10 @@ gatsby-plugin-mdx@^1.0.13:
     unist-util-remove "^1.0.3"
     unist-util-visit "^1.4.1"
 
-gatsby-plugin-netlify@2.3.2:
-  version "2.3.2"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-netlify/-/gatsby-plugin-netlify-2.3.2.tgz#19ce2715e747e3aa17d96f4262ddf94a6c6a6356"
-  integrity sha512-6K5p1nAmBaahG9xizm/w3SwTw8TMPjWuRu41ednouv3taH2W+BW7rF5Hu2rDY9rzO9hOv+tQ2e1ipDSiA9TxMA==
+gatsby-plugin-netlify@2.3.3:
+  version "2.3.3"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-netlify/-/gatsby-plugin-netlify-2.3.3.tgz#30760fcc2b1f55467a721742851b3d22cb51bf3e"
+  integrity sha512-vq/0dcGUfZeJf6Gyn5EtS6ifQJbMhzVDz/pMVOQX8biFbkdIxrx/MLhH2MHUBGSu4eworbNZ2kIMw9xUwnbpXA==
   dependencies:
     "@babel/runtime" "^7.9.6"
     fs-extra "^8.1.0"
@@ -10402,14 +10420,14 @@ gatsby-plugin-netlify@2.3.2:
     lodash "^4.17.15"
     webpack-assets-manifest "^3.1.1"
 
-gatsby-plugin-offline@3.2.1:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-offline/-/gatsby-plugin-offline-3.2.1.tgz#67d04c9915e9852544fbc935c4751b578cae88bf"
-  integrity sha512-b2JZJrp7Xq2XY2/vmP+MviDq0nr07fAsqhAz5ApI0G11yEsyqCwEKLDYKsHuZ4rgM7p69wncQNa/WpluCWUUsw==
+gatsby-plugin-offline@3.2.7:
+  version "3.2.7"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-offline/-/gatsby-plugin-offline-3.2.7.tgz#6afab6c485dcc4cbbe433232703794ca8ac8407d"
+  integrity sha512-nILi//N6gS8Ils0JQ4bPUSAFzaNXp2cMl/im1JtoZl7V22GhLMPtCmNx4PykBoq3pt/nRubNHfHc2SitH6oXDA==
   dependencies:
     "@babel/runtime" "^7.9.6"
     cheerio "^1.0.0-rc.3"
-    gatsby-core-utils "^1.2.1"
+    gatsby-core-utils "^1.3.3"
     glob "^7.1.6"
     idb-keyval "^3.2.0"
     lodash "^4.17.15"
@@ -10436,12 +10454,13 @@ gatsby-plugin-postcss@^2.1.14:
     "@babel/runtime" "^7.9.6"
     postcss-loader "^3.0.0"
 
-gatsby-plugin-preact@^3.1.20:
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-preact/-/gatsby-plugin-preact-3.3.1.tgz#38b447a1a79bddb6fd7efdace32cd17148b937cf"
-  integrity sha512-XFRXub5+3THyLNXzPVl6jetMkG1/jI9759uwMFsAEm1o4ICcwdU4NCsZAfeCygK8RylNy6irIkL9ykOOuMXmHA==
+gatsby-plugin-preact@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-preact/-/gatsby-plugin-preact-4.0.0.tgz#fac323a20162ae4ecf80412e508be27f007435c6"
+  integrity sha512-QvntARJf340Yiq6jLaJW0GHL5KSJRRvRzPBZODTNTfk47nkPodSCGzcNr8cH9ek4yAm4iLLuDhJWG9nijixivA==
   dependencies:
-    "@babel/runtime" "^7.9.6"
+    "@prefresh/webpack" "^0.6.0"
+    react-refresh "^0.8.2"
 
 gatsby-plugin-purgecss@^5.0.0:
   version "5.0.0"
@@ -10477,23 +10496,23 @@ gatsby-plugin-root-import@^2.0.5:
   resolved "https://registry.yarnpkg.com/gatsby-plugin-root-import/-/gatsby-plugin-root-import-2.0.5.tgz#04e520dc661d67f49aa7950f11b7c780fd2fdbd3"
   integrity sha512-/yA6rFjfjiFb8D6nCjfFrrGqYQMkOt4J3u2o6s7VYEF/zpA5dw2C9ENJ5fDKkJSCbbwLiEIGVMMee3vMEip2zA==
 
-gatsby-plugin-sharp@2.6.1:
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-sharp/-/gatsby-plugin-sharp-2.6.1.tgz#7d7d25610cdb28359a50ffbcc7eb9b2a7e24ec45"
-  integrity sha512-gfZtAvMx/Q81hZXsGlkcgEVx02fZJwVz7+IaWtHC30jfvF6ViQ+NKRNBsOnGL7y3HyIvd2qeF6bvL0TUoA60Wg==
+gatsby-plugin-sharp@2.6.9:
+  version "2.6.9"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-sharp/-/gatsby-plugin-sharp-2.6.9.tgz#e18b6f3cf83c1ae09fdf975947b88af01e51b72c"
+  integrity sha512-H90sUQoFxSYN1n7awKfzidltyf+Ho5YpVZxSdEnv3nermNT07sLLarCz3Mtg7DKnxSePmXuWz6Mu30+CgToQ0g==
   dependencies:
     "@babel/runtime" "^7.9.6"
     async "^2.6.3"
     bluebird "^3.7.2"
     fs-extra "^8.1.0"
-    gatsby-core-utils "^1.2.1"
+    gatsby-core-utils "^1.3.3"
     got "^8.3.2"
     imagemin "^6.1.0"
     imagemin-mozjpeg "^8.0.0"
     imagemin-pngquant "^6.0.1"
     imagemin-webp "^5.1.0"
     lodash "^4.17.15"
-    mini-svg-data-uri "^1.1.3"
+    mini-svg-data-uri "^1.2.3"
     potrace "^2.1.6"
     probe-image-size "^4.1.1"
     progress "^2.0.3"
@@ -15449,7 +15468,7 @@ mini-css-extract-plugin@^0.8.2:
     schema-utils "^1.0.0"
     webpack-sources "^1.1.0"
 
-mini-svg-data-uri@^1.1.3:
+mini-svg-data-uri@^1.2.3:
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/mini-svg-data-uri/-/mini-svg-data-uri-1.2.3.tgz#e16baa92ad55ddaa1c2c135759129f41910bc39f"
   integrity sha512-zd6KCAyXgmq6FV1mR10oKXYtvmA9vRoB6xPSTUJTbFApCtkefDnYueVR1gkof3KcdLZo1Y8mjF2DFmQMIxsHNQ==
@@ -18744,6 +18763,11 @@ react-refresh@^0.7.0:
   version "0.7.2"
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.7.2.tgz#f30978d21eb8cac6e2f2fde056a7d04f6844dd50"
   integrity sha512-u5l7fhAJXecWUJzVxzMRU2Zvw8m4QmDNHlTrT5uo3KBlYBhmChd7syAakBoay1yIiVhx/8Fi7a6v6kQZfsw81Q==
+
+react-refresh@^0.8.2:
+  version "0.8.2"
+  resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.8.2.tgz#24bb0858eac92b0d7b0dd561747f0c9fd6c60327"
+  integrity sha512-n8GXxo3DwM2KtFEL69DAVhGc4A1THn2qjmfvSo3nze0NLCoPbywazeJPqdp0RdSGLmyhQzeyA+XPXOobbYlkzg==
 
 react-resize-detector@^4.2.1:
   version "4.2.3"
