@@ -12,7 +12,7 @@
     "axios": "^0.19.2",
     "clsx": "^1.1.0",
     "dotenv": "^8.2.0",
-    "easy-peasy": "^3.3.0",
+    "easy-peasy": "^4.0.0",
     "jquery": "^3.5.1",
     "react": "16.13.1",
     "react-dom": "16.13.1",
