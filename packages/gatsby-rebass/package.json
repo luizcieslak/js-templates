@@ -24,7 +24,7 @@
     "gatsby-plugin-typescript": "^2.1.15",
     "gatsby-plugin-webpack-bundle-analyzer": "^1.0.5",
     "gatsby-source-filesystem": "^2.1.35",
-    "gatsby-transformer-sharp": "^2.3.2",
+    "gatsby-transformer-sharp": "^3.0.0",
     "jquery": "^3.5.1",
     "preact": "^10.0.5",
     "prop-types": "^15.7.2",
