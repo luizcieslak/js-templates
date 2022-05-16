@@ -31,7 +31,7 @@
     "@types/react-dom": "16.9.8",
     "@typescript-eslint/eslint-plugin": "^1.10.2",
     "@typescript-eslint/parser": "^1.10.2",
-    "babel-jest": "^24.9.0",
+    "babel-jest": "^28.0.0",
     "cypress": "^4.0.1",
     "eslint": "^6.6.0",
     "eslint-config-prettier": "^6.5.0",
