@@ -28,7 +28,7 @@
     "prop-types": "^15.7.2",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "react-helmet": "^5.2.1",
+    "react-helmet": "^6.0.0",
     "react-icons": "^3.9.0"
   },
   "keywords": [
@@ -60,7 +60,7 @@
     "@testing-library/react": "^9.1.4",
     "@types/jest": "^24.0.14",
     "@types/node": "^12.0.2",
-    "@types/react-helmet": "^5.0.14",
+    "@types/react-helmet": "^6.0.0",
     "@typescript-eslint/eslint-plugin": "^1.10.2",
     "@typescript-eslint/parser": "^1.10.2",
     "babel-jest": "^24.9.0",
