@@ -1096,6 +1096,11 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
+"@babel/runtime@^7.20.13":
+  version "7.29.7"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.29.7.tgz#12022450c45a4da6d8d8287b18a4ff2ddb23f768"
+  integrity sha512-Nq8OhGWiZIZGV6hLHoyAKLLcJihP/xFeBMGJoUrxTX2psI8dCifzLhZISFb+VWS3wFMRDmCGw5R+dOySCqPLhw==
+
 "@babel/standalone@^7.4.5", "@babel/standalone@^7.9.6":
   version "7.9.6"
   resolved "https://registry.yarnpkg.com/@babel/standalone/-/standalone-7.9.6.tgz#7a5f82c6fa29959b12f708213be6de8ec0b79338"
@@ -1420,6 +1425,15 @@
   dependencies:
     postcss "7.0.28"
     purgecss "^2.2.0"
+
+"@gatsbyjs/webpack-hot-middleware@^2.25.3":
+  version "2.25.3"
+  resolved "https://registry.yarnpkg.com/@gatsbyjs/webpack-hot-middleware/-/webpack-hot-middleware-2.25.3.tgz#a00c5f526cbe178330b967f7ed6a487751ffd795"
+  integrity sha512-ul17OZ8Dlw+ATRbnuU+kwxuAlq9lKbYz/2uBS1FLCdgoPTF1H2heP7HbUbgfMZbfRQNcCG2rMscMnr32ritCDw==
+  dependencies:
+    ansi-html-community "0.0.8"
+    html-entities "^2.3.3"
+    strip-ansi "^6.0.0"
 
 "@graphql-codegen/cli@^1.0.0":
   version "1.13.5"
@@ -3466,23 +3480,28 @@
     lodash.debounce "^4.0.8"
     react-dev-utils "^9.1.0"
 
-"@prefresh/core@0.6.0":
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/@prefresh/core/-/core-0.6.0.tgz#b7801ad3d16de9d21ed0824db6c85707f93cf93c"
-  integrity sha512-xhhBgQeMmyoSYEr8F27oypxRTWysIKPnc+Ed6U5OmEwPtLeKsccI3UCpSQyrcv5/HmPNPjAYHPqNC0uH57rIkw==
+"@prefresh/babel-plugin@^0.4.3":
+  version "0.4.4"
+  resolved "https://registry.yarnpkg.com/@prefresh/babel-plugin/-/babel-plugin-0.4.4.tgz#54872f9f938d3adff587037ab987c5e6449bdfee"
+  integrity sha512-/EvgIFMDL+nd20WNvMO0JQnzIl1EJPgmSaSYrZUww7A+aSdKsi37aL07TljrZR1cBMuzFxcr4xvqsUQLFJEukw==
 
-"@prefresh/utils@0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@prefresh/utils/-/utils-0.1.0.tgz#9b69c9ecd6002e72e096e5e72f4bd4f88d15284c"
-  integrity sha512-xtUsQMJIHwBuiXu1E1iiXNVfn60N6zpVUo67ZvQVA6OMlslQzWtbdnTXRT+iplBBgfLmQvXR0bKsNz1+ZYSMgw==
+"@prefresh/core@^1.3.3":
+  version "1.5.11"
+  resolved "https://registry.yarnpkg.com/@prefresh/core/-/core-1.5.11.tgz#9d2b84d33f31919300130fda68cdaa30ba1e264a"
+  integrity sha512-Ml00PP8jeHaADxfQqxUs4+M5JS+T5J26UnvPVfsrmlpGw2I3e9XtM0DMeuzkmvg+Tn7VdHSMpLBrDPG0iHoDqQ==
 
-"@prefresh/webpack@^0.6.0":
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/@prefresh/webpack/-/webpack-0.6.0.tgz#fec281c8b94e5455646686eb4c123a7b22004dd3"
-  integrity sha512-z9S1jknJZsc9xmMsX/3nNae8CxKavlOH0YydDjdld41WYB4A2UkC7+rl4P+XH7www9HpGcXzmqgDfFKGGJnNEg==
+"@prefresh/utils@^1.1.2":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@prefresh/utils/-/utils-1.2.1.tgz#c1cb3c3114839d07271a36b386bf03cf354d31d7"
+  integrity sha512-vq/sIuN5nYfYzvyayXI4C2QkprfNaHUQ9ZX+3xLD8nL3rWyzpxOm1+K7RtMbhd+66QcaISViK7amjnheQ/4WZw==
+
+"@prefresh/webpack@^3.3.4":
+  version "3.3.4"
+  resolved "https://registry.yarnpkg.com/@prefresh/webpack/-/webpack-3.3.4.tgz#742b70cc6e9a51ff9da80dc75eeccb38d18274aa"
+  integrity sha512-RiXS/hvXDup5cQw/267kxkKie81kxaAB7SFbkr8ppshobDEzwgUN1tbGbHNx6Uari0Ql2XByC6HIgQGpaq2Q7w==
   dependencies:
-    "@prefresh/core" "0.6.0"
-    "@prefresh/utils" "0.1.0"
+    "@prefresh/core" "^1.3.3"
+    "@prefresh/utils" "^1.1.2"
 
 "@reach/router@^1.3.1", "@reach/router@^1.3.3":
   version "1.3.3"
@@ -4869,6 +4888,11 @@ ansi-escapes@^3.0.0, ansi-escapes@^3.1.0, ansi-escapes@^3.2.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/ansi-escapes/-/ansi-escapes-3.2.0.tgz#8780b98ff9dbf5638152d1f1fe5c1d7b4442976b"
   integrity sha512-cBhpre4ma+U0T1oM5fXg7Dy1Jw7zzwv7lt/GoCpr+hDQJoYnKVPLL4dCvSEFMmQurOQvSrwT7SL/DAlhBI97RQ==
+
+ansi-html-community@0.0.8:
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/ansi-html-community/-/ansi-html-community-0.0.8.tgz#69fbc4d6ccbe383f9736934ae34c3f8290f1bf41"
+  integrity sha512-1APHAyr3+PCamwNw3bXCPp4HFLONZt/yIH0sZp0/469KWNTEy+qN5jQ3GVX6DMZ1UXAi34yVwtTeaG/HpBuuzw==
 
 ansi-html@0.0.7, ansi-html@^0.0.7:
   version "0.0.7"
@@ -10743,13 +10767,15 @@ gatsby-plugin-postcss@^2.1.14:
     "@babel/runtime" "^7.9.6"
     postcss-loader "^3.0.0"
 
-gatsby-plugin-preact@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-preact/-/gatsby-plugin-preact-4.0.0.tgz#fac323a20162ae4ecf80412e508be27f007435c6"
-  integrity sha512-QvntARJf340Yiq6jLaJW0GHL5KSJRRvRzPBZODTNTfk47nkPodSCGzcNr8cH9ek4yAm4iLLuDhJWG9nijixivA==
+gatsby-plugin-preact@^7.0.0:
+  version "7.16.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-preact/-/gatsby-plugin-preact-7.16.0.tgz#bb6c1b3866ace000b3c38910563e86c2c815f99a"
+  integrity sha512-R1hZ4Bovc3b5IKDpbpkY+L0Hwxa3ki6kIVWLR51Tu699TXYfMHj0FghOLazc+L/r/6dGhxJx5pOeC04m/jkubQ==
   dependencies:
-    "@prefresh/webpack" "^0.6.0"
-    react-refresh "^0.8.2"
+    "@babel/runtime" "^7.20.13"
+    "@gatsbyjs/webpack-hot-middleware" "^2.25.3"
+    "@prefresh/babel-plugin" "^0.4.3"
+    "@prefresh/webpack" "^3.3.4"
 
 gatsby-plugin-purgecss@^5.0.0:
   version "5.0.0"
@@ -12238,6 +12264,11 @@ html-entities@^1.2.0, html-entities@^1.2.1:
   version "1.3.1"
   resolved "https://registry.yarnpkg.com/html-entities/-/html-entities-1.3.1.tgz#fb9a1a4b5b14c5daba82d3e34c6ae4fe701a0e44"
   integrity sha512-rhE/4Z3hIhzHAUKbW8jVcCyuT5oJCXXqhN/6mXXVCpzTmvJnoH2HL/bt3EZ6p55jbFJBeAe1ZNpL5BugLujxNA==
+
+html-entities@^2.3.3:
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/html-entities/-/html-entities-2.6.0.tgz#7c64f1ea3b36818ccae3d3fb48b6974208e984f8"
+  integrity sha512-kig+rMn/QOVRvr7c86gQ8lWXq+Hkv6CbAH1hLu+RG338StTpE8Z0b44SDVaqVu7HGKf27frdmUYEs9hTUX/cLQ==
 
 html-escaper@^2.0.0:
   version "2.0.2"
@@ -19071,11 +19102,6 @@ react-refresh@^0.7.0:
   version "0.7.2"
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.7.2.tgz#f30978d21eb8cac6e2f2fde056a7d04f6844dd50"
   integrity sha512-u5l7fhAJXecWUJzVxzMRU2Zvw8m4QmDNHlTrT5uo3KBlYBhmChd7syAakBoay1yIiVhx/8Fi7a6v6kQZfsw81Q==
-
-react-refresh@^0.8.2:
-  version "0.8.2"
-  resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.8.2.tgz#24bb0858eac92b0d7b0dd561747f0c9fd6c60327"
-  integrity sha512-n8GXxo3DwM2KtFEL69DAVhGc4A1THn2qjmfvSo3nze0NLCoPbywazeJPqdp0RdSGLmyhQzeyA+XPXOobbYlkzg==
 
 react-resize-detector@^4.2.1:
   version "4.2.3"
